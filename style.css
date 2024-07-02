@@ -4,15 +4,15 @@
 }
 body {
     font-family: 'Poppins', sans-serif;
-    background-image: url("campo-2.jpg");
+    background-image: url;
     
     align-items: center;
     text-align: center;
 }
 
 .cabecalho {
-    background-color: #424E61;
-    color: white;
+    background-color: #60b347;
+    color: rgb(7, 7, 7);
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -31,16 +31,16 @@ body {
 
 .cabecalho-lista-item a{
     text-decoration: none; 
-    color: white;
+    color: rgb(0, 0, 0);
 }
 
 .escola-imagem{
     width: 25%;
 }
 
-#escola{
-    background-image: linear-gradient(#424E61,#16CFF8);
-    color:white;
+#sobre{
+    background-image: linear-gradient(#64b84b,#8eb383);
+    color:rgb(0, 0, 0);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -56,7 +56,12 @@ body {
     padding: 24px 0;
 }
 
-#estudante{
+#ondeacessar{
+    background-image: linear-gradient(#82c56b,#9bc28e);
+    color:rgb(0, 0, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
     padding: 24px 0;
 }
 
